@@ -1,0 +1,36 @@
+.journal-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background:gold;
+    color: rgb(252, 43, 43);
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .journal-entries {
+    margin-top: 20px;
+  }
+  
+  .journal-entry {
+    background: #f4f4f4;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .journal-entry button {
+    background: #e74c3c;
+  }

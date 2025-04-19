@@ -1,0 +1,34 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background:lightblue; /* Light background */
+  text-align: center;
+}
+
+.logo {
+  width: 200px;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 12px 25px;
+  font-size: 18px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}

@@ -1,0 +1,58 @@
+.consultation-container {
+    height: 100vh;
+    text-align: center;
+  }
+  .consultation-container {
+    background-image: url("../assets/consultation-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  
+  .consultation-container ul {
+    list-style: none;
+    padding: 0;
+    margin: auto; /* Ensures proper alignment */
+  }
+  
+  .consultation-container li {
+    cursor: pointer;
+    padding: 10px;
+    margin: 5px auto;
+    background:darkcyan;
+    border-radius: 5px;
+    width: 250px; /* Ensures uniform width */
+    transition: 0.3s;
+  }
+  
+  .consultation-container li:hover {
+    background: #ddd;
+  }
+  
+  .consultation-container .doctor-details {
+    margin-top: 20px;
+    padding: 15px;
+    border:1px solid chocolate;
+    border-radius: 5px;
+    background:darkgoldenrod;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .consultation-container button {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .consultation-container button:hover {
+    background: darkred;
+  }
+  

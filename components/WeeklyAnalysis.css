@@ -1,0 +1,10 @@
+.weekly-analysis {
+    text-align: center;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  canvas {
+    max-width: 100%;
+    height: auto;
+  }

@@ -1,0 +1,27 @@
+.ai-analysis {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  label {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centers horizontally */
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  button {
+    background: #008CBA;
+    color: white;
+    padding: 10px;
+    margin: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .analysis-result {
+    margin-top: 10px;
+    padding: 10px;
+    background: #f8f8f8;
+  }
